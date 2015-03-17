@@ -8,3 +8,5 @@ install:
 script:
   - pep8 fastfood
   - flake8 fastfood
+# The following line tells Travis CI to build in a container
+sudo: false
